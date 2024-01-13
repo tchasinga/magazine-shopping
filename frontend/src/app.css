@@ -5,3 +5,8 @@
     height: 100vh;
     margin: 0;
 }
+
+.newproductgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }

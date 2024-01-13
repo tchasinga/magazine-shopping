@@ -98,3 +98,11 @@
 .maxWidth{
     max-width: 300px;
   } 
+
+
+  .bg-black{
+    background-color: #00000044;
+    padding: 10px 20px;
+    width: 45%;
+    backdrop-filter: blur(30px);
+  }

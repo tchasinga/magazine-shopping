@@ -42,7 +42,7 @@
 
 /* Optional: Add styles to customize the appearance of the animation */
 .Success .lottie-container {
-  width: 100px; /* Adjust the width as needed */
+  width: 100px; 
   height: 100px; /* Adjust the height as needed */
   margin: 0 auto;
 }

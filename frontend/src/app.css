@@ -39,7 +39,6 @@
   z-index: 9999; 
 }
 
-/* Optional: Add styles to customize the appearance of the animation */
 .Success .lottie-container {
   width: 100px; 
   height: 100px; /* Adjust the height as needed */

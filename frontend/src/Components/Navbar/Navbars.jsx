@@ -1,8 +1,12 @@
 import {SiShopify,  } from 'react-icons/si';
 import { PiShoppingCartLight } from "react-icons/pi";
 import '../../index.css'
+import { useState } from 'react';
 
 export default function Navbars() {
+
+    const [menu, setmenu] = useState("Shop")
+
   return (
     <div>
         <div className="flex items-center justify-between">
@@ -13,10 +17,10 @@ export default function Navbars() {
            </div>
 
            <ul className="nav-menu flex items-center gap-3 text-slate-800 text-[15px]">
-            <li className="">Shop <hr /></li>
-            <li className="">Mens</li>
-            <li className="">Womens</li>
-            <li className="">Child</li>
+            <li onClick={()=> setmenu("Shop")} className="">Shop {menu ===  "Shop" ?  <hr /> : <></>}</li>
+            <li onClick={()=> setmenu("Mens")} className="">Mens {menu ===  "Mens" ?  <hr /> : <></>}</li>
+            <li onClick={()=> setmenu("Womens")} className="">Womens {menu ===  "Womens" ?  <hr /> : <></>}</li>
+            <li onClick={()=> setmenu("Child")} className="">Child {menu ===  "Child" ?  <hr /> : <></>}</li>
            </ul>
 
            <div className="relative flex items-center gap-3">

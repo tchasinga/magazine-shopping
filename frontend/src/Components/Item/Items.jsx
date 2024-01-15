@@ -5,22 +5,28 @@ export default function Items(props) {
   return (
     <div className=''>
      
-                <div className="mygridreponsive">
+                <div className="mygridreponsive bg-slate-400 ">
                     <div className="">
                         <div>
                             <img src={props.image} alt="" />
                         </div>
 
+                        <div className="p-3">
+
                         <div>
                             <p>{props.name}</p>
                         </div>
 
-                        <div>
+                       <div className="flex gap-2">
+                       <div>
                             <p>{props.new_price}</p>
                         </div>
 
-                        <div>
+                        <div className='line-through'>
                             <p>{props.old_price}</p>
+                        </div>
+                       </div>
+
                         </div>
                     </div>   
                 </div>

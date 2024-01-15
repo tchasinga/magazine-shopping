@@ -9,7 +9,7 @@ export default function Popular() {
         <p className="text-gray-500 text-xs flex items-center">900k+ viewer this month</p>
       </div>
 
-      <div className="mygridreponsive">
+      <div className="mygridreponsive ">
         {data_product.map((items) => (
           <Items
             key={items.id}

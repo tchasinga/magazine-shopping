@@ -3,11 +3,11 @@ import exclusive from '../../img/AppleAirPods.png'
 
 export default function Offer() {
   return (
-    <div>
+    <div className='flex items-center justify-between'>
       <div className="">
         <h1 className='text-3xl'>Exclusive</h1>
         <p className='font-medium text-lg'>Get 30% Off On First Order</p>
-        <h2 className='text-lg'>We get an offer for You here come and pick your goods</h2>
+        <h2 className='text-sm'>We get an offer for You here come and pick your goods</h2>
        
        <div className="bg-slate-100 py-2 px-5 w-32 rounded-r-3xl border">
        <button className='text-sm font-medium'>Shop Now</button>

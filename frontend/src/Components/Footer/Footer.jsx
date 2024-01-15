@@ -3,8 +3,8 @@ import '../../index.css'
 
 export default function Footer() {
   return (
-    <div className='mgenBg'>
-        <div className="flex justify-between items-center fixed mt-10 bottom-0 right-0 max-w-6xl mx-auto left-0 text-white py-5 px-10">
+    <div className=''>
+       <div className="flex justify-between px-56 items-center mgenBg fixed mt-10 bottom-0 right-0  left-0 text-white py-5">
             <div className="flex gap-5 items-center text-black">
                 <SiShopify className="text-4xl"/>
                 <h1 className="text-xl ">Shopify</h1>

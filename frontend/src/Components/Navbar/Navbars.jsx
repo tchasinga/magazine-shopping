@@ -16,7 +16,7 @@ export default function Navbars() {
             <h1 className="text-2xl text-center pt-3 font-bold text-slate-900">Shopify</h1>
            </div>
 
-           <ul className="nav-menu flex items-center gap-3 text-slate-800 text-[15px]">
+           <ul className="nav-menu flex items-center gap-3 text-slate-800 text-[15px] duration-500">
             <li onClick={()=> setmenu("Shop")} className="">Shop {menu ===  "Shop" ?  <hr /> : <></>}</li>
             <li onClick={()=> setmenu("Mens")} className="">Mens {menu ===  "Mens" ?  <hr /> : <></>}</li>
             <li onClick={()=> setmenu("Womens")} className="">Womens {menu ===  "Womens" ?  <hr /> : <></>}</li>

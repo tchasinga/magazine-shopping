@@ -25,9 +25,9 @@ export default function Navbars() {
            </ul>
 
            <div className="relative flex items-center gap-5">
-              <PiShoppingCartLight className='text-2xl font-bold'/>
+              <Link to={'/cart'}><PiShoppingCartLight className="text-3xl text-slate-800"/></Link>
               <div className="nav-cart-count">0</div>
-              <button>Loging</button>
+              <Link to={'/login'}><button className="bg-slate-700 text-white px-3 py-1 rounded-lg text-sm">Login</button></Link>
            </div>
 
         </div>

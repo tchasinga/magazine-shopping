@@ -3,6 +3,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Shop from "./Pages/Shop";
 import ShoppingKinds from "./Pages/ShoppingKinds";
 import Products from "./Pages/Products";
+import Cart from "./Pages/Cart";
+import LoginSignup from "./Pages/LoginSignup";
 
 function App() {
 
@@ -17,8 +19,11 @@ function App() {
         <Route path="/child" element={<ShoppingKinds category="child"/>} />
 
         <Route path="/product" element={<Products/>}>
-          
+          <Route path=":productID" element={<h1>Product ID</h1>} />
         </Route>
+
+        <Route path="/cart" element={<Cart/>} />
+        <Route path="/login" element={<LoginSignup/>} />
 
        </Routes>
       </BrowserRouter>

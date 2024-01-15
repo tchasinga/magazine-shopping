@@ -18,7 +18,7 @@ export default function Hero() {
 
             <div className="">
                 <div className="">
-                    <img className="object-fill -rotate-12" src={ImgJordan} alt="" />
+                    <img className="object-fill -rotate-12 dropObject" src={ImgJordan} alt="" />
                 </div>
             </div>
 

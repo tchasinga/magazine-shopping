@@ -8,7 +8,7 @@ export default function Popular() {
         <h1>POPULAR IN WOMEN</h1>
       </div>
 
-      <div className="">
+      <div className="mygridreponsive">
         {data_product.map((items) => (
           <Items
             key={items.id}

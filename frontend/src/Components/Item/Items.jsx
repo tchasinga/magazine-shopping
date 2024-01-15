@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import '../../index.css';
 
 export default function Items(props) {
   return (
-    <div>
+    <div className=''>
      
                 <div className="mygridreponsive">
                     <div className="">

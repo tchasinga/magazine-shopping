@@ -21,8 +21,7 @@ export default function Items(props) {
                         <div>
                             <p>{props.old_price}</p>
                         </div>
-                    </div>
-                    
+                    </div>   
                 </div>
     </div>
   )

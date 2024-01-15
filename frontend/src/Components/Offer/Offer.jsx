@@ -9,8 +9,8 @@ export default function Offer() {
         <p className='font-medium text-lg'>Get 30% Off On First Order</p>
         <h2 className='text-lg'>We get an offer for You here come and pick your goods</h2>
        
-       <div className="">
-       <button>Shop Now</button>
+       <div className="bg-slate-100 py-2 px-5 w-32 rounded-r-3xl border">
+       <button className='text-sm font-medium'>Shop Now</button>
        </div>
       </div>
 

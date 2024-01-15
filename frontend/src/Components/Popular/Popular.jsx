@@ -4,8 +4,9 @@ import Items from "../Item/Items";
 export default function Popular() {
   return (
     <div>
-      <div className="">
-        <h1>POPULAR IN WOMEN</h1>
+      <div className="w-full text-slate-900 text-3xl font-semibold my-5">
+        <h1 className="uppercase">the most POPULAR IN WOMEN outfit</h1>
+        <p className="text-gray-500 text-xs flex items-center">900k+ viewer this month</p>
       </div>
 
       <div className="mygridreponsive">

@@ -21,3 +21,16 @@
     font-size: 12px;
     font-weight: 600;
 }
+
+.nav-menu hr{
+ border: none;
+ width: 80%;
+ height: 3px;
+ border-radius: 10px;
+    background-color: #000;   
+}
+
+.nav-menu li{
+    cursor: pointer;
+    transition: all 0.5s ease;
+}

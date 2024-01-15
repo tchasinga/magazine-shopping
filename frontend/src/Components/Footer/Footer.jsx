@@ -9,8 +9,8 @@ export default function Footer() {
                 <SiShopify className="text-4xl"/>
                 <h1 className="text-xl ">Shopify</h1>
             </div>
-            <div className="flex gap-5 text-gray-800">
-                <p className=''>@Copyright 2024 all deserved made by tchasinga balolebwami </p>
+            <div className="flex gap-5 text-gray-950">
+                <p className='text-sm'>@Copyright 2024 all deserved made by tchasinga balolebwami </p>
             </div>
             <div className="flex gap-5 text-black items-center">
                 <SiGithub className="text-xl"/>

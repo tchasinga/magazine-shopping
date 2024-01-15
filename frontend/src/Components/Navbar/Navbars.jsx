@@ -2,6 +2,7 @@ import {SiShopify,  } from 'react-icons/si';
 import { PiShoppingCartLight } from "react-icons/pi";
 import '../../index.css'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbars() {
 
@@ -17,10 +18,10 @@ export default function Navbars() {
            </div>
 
            <ul className="nav-menu flex items-center gap-3 text-slate-800 text-[15px] duration-500">
-            <li onClick={()=> setmenu("Shop")} className="">Shop {menu ===  "Shop" ?  <hr /> : <></>}</li>
-            <li onClick={()=> setmenu("Mens")} className="">Mens {menu ===  "Mens" ?  <hr /> : <></>}</li>
-            <li onClick={()=> setmenu("Womens")} className="">Womens {menu ===  "Womens" ?  <hr /> : <></>}</li>
-            <li onClick={()=> setmenu("Child")} className="">Child {menu ===  "Child" ?  <hr /> : <></>}</li>
+            <li onClick={()=> setmenu("Shop")} className=""><Link to={'/'}>Shop</Link> {menu ===  "Shop" ?  <hr /> : <></>}</li>
+            <li onClick={()=> setmenu("Mens")} className=""><Link to={'/mens'}>Mens</Link> {menu ===  "Mens" ?  <hr /> : <></>}</li>
+            <li onClick={()=> setmenu("Womens")} className=""><Link to={'/womens'}>Womens</Link> {menu ===  "Womens" ?  <hr /> : <></>}</li>
+            <li onClick={()=> setmenu("Child")} className=""><Link to={'/child'}>Child</Link> {menu ===  "Child" ?  <hr /> : <></>}</li>
            </ul>
 
            <div className="relative flex items-center gap-3">

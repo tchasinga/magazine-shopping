@@ -70,3 +70,7 @@
     transition: all 0.5s ease;
     filter: drop-shadow(-10px 91px 39px #00000095);
 }
+
+.mgenBg{
+    background-color: #a72020;
+}

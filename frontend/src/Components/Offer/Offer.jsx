@@ -15,7 +15,7 @@ export default function Offer() {
       </div>
 
       <div className="">
-        <img src={exclusive} alt="" />
+        <img src={exclusive} alt="" className='airpod'/>
       </div>
     </div>
   )

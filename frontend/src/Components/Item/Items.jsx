@@ -19,11 +19,11 @@ export default function Items(props) {
 
                        <div className="flex gap-2 ">
                        <div className='text-green-700 font-bold'>
-                            <p>{props.new_price}</p>
+                            <p>${props.new_price}</p>
                         </div>
 
                         <div className='line-through text-red-700 font-bold'>
-                            <p>{props.old_price}</p>
+                            <p>{props.old_price} $</p>
                         </div>
                        </div>
 

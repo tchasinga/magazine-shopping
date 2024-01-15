@@ -5,10 +5,13 @@ export default function Offer() {
   return (
     <div>
       <div className="">
-        <h1>Exclusive</h1>
-        <h2>Offer For You</h2>
-        <p>Get 30% Off On First Order</p>
-        <button>Shop Now</button>
+        <h1 className='text-3xl'>Exclusive</h1>
+        <p className='font-medium text-lg'>Get 30% Off On First Order</p>
+        <h2 className='text-lg'>We get an offer for You here come and pick your goods</h2>
+       
+       <div className="">
+       <button>Shop Now</button>
+       </div>
       </div>
 
       <div className="">

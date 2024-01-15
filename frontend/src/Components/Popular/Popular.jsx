@@ -1,19 +1,24 @@
-import data_product from "../Assets/data"
-import Items from "../Item/Items"
-
+import data_product from "../Assets/data";
+import Items from "../Item/Items";
 
 export default function Popular() {
   return (
     <div>
-       <div className="">
+      <div className="">
         <h1>POPULAR IN WOMEN</h1>
-       </div>
+      </div>
 
-       <div className="">
-        {data_product.map((item) =>(
-            return <Items key={item.id} image={item.image} name={item.name} new_price={item.new_price} old_price={item.old_price} />
+      <div className="">
+        {data_product.map((items) => (
+          <Items
+            key={items.id}
+            image={items.image}
+            name={items.name}
+            new_price={items.new_price}
+            old_price={items.old_price}
+          />
         ))}
-       </div>
+      </div>
     </div>
-  )
+  );
 }

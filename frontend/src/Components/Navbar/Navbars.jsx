@@ -24,7 +24,7 @@ export default function Navbars() {
             <li onClick={()=> setmenu("Child")} className=""><Link to={'/child'}>Child</Link> {menu ===  "Child" ?  <hr /> : <></>}</li>
            </ul>
 
-           <div className="relative flex items-center gap-3">
+           <div className="relative flex items-center gap-5">
               <PiShoppingCartLight className='text-2xl font-bold'/>
               <div className="nav-cart-count">0</div>
               <button>Loging</button>

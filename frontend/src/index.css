@@ -9,3 +9,15 @@
     margin: 0;
     padding: 0;
 }
+
+.nav-cart-count{
+    position: absolute;
+    top: -27%;
+    left: 18%;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+}

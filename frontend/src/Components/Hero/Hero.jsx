@@ -1,12 +1,12 @@
-
+import ImgJordan from '../../img/air-jordan-4-retro-se-craft.png'
 
 export default function Hero() {
   return (
     <div>
 
-        <div className="">
+        <div className="flex items-center justify-between">
 
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col border">
                 <h1 className="font-bold text-slate-900 text-3xl">Welcom shopify</h1>
                 <h1 className="font-bold text-slate-900 text-lg">We sell great things</h1>
                 <div className="text-sm font-normal text-gray-900">
@@ -16,7 +16,12 @@ export default function Hero() {
                 <p className="text-xs text-red-950 font-medium">Let&apos;us made shopping</p>
             </div>
 
-            <div className=""></div>
+            <div className="">
+                <div className="">
+                    <img className="object-fill" src={ImgJordan} alt="" />
+                </div>
+            </div>
+
         </div>
 
     </div>

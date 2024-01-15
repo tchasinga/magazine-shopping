@@ -5,10 +5,10 @@ export default function Items(props) {
   return (
     <div className=''>
      
-                <div className="flex flex-col bg-slate-200 ">
-                    <div className="">
+                <div className="flex flex-col bg-slate-200 justify-center items-center">
+                    <div className="flex justify-center items-center flex-col">
                         <div>
-                            <img src={props.image} alt="" />
+                            <img src={props.image} alt="" className='object-fill'/>
                         </div>
 
                         <div className="p-3">

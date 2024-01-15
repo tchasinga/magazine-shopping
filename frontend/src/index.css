@@ -9,3 +9,51 @@
     margin: 0;
     padding: 0;
 }
+
+.nav-cart-count{
+    position: absolute;
+    top: -18%;
+    left: 9%;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-menu hr{
+ border: none;
+ width: 80%;
+ height: 3px;
+ border-radius: 10px;
+    background-color: #000;   
+}
+
+.nav-menu li{
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.dropObject{
+    filter: drop-shadow(-10px 91px 39px #00000095);
+}
+
+.mygridreponsive{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.bordering input{
+    border: none !important;
+    border-radius: 5px;
+    padding: 10px;
+    width: 170%;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+
+.bordering input:focus{
+    outline: none;
+}

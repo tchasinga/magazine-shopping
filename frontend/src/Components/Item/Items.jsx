@@ -5,7 +5,7 @@ export default function Items(props) {
   return (
     <div className=''>
      
-                <div className="mygridreponsive bg-slate-400 ">
+                <div className="flex flex-col bg-slate-200 ">
                     <div className="">
                         <div>
                             <img src={props.image} alt="" />
@@ -17,12 +17,12 @@ export default function Items(props) {
                             <p>{props.name}</p>
                         </div>
 
-                       <div className="flex gap-2">
-                       <div>
+                       <div className="flex gap-2 ">
+                       <div className='text-green-700 font-bold'>
                             <p>{props.new_price}</p>
                         </div>
 
-                        <div className='line-through'>
+                        <div className='line-through text-red-700 font-bold'>
                             <p>{props.old_price}</p>
                         </div>
                        </div>

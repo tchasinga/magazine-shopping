@@ -11,13 +11,13 @@ export default function NewsLetter() {
              <p className="">Get notification about new arrivals in your inbox.</p>
              </div>
 
-             <div className="">
+             <div className="flex items-center relative right-[6%] pt-3">
                <div className="bordering">
-               <input type="text" id="text" className=""/>
+               <input type="text" id="text" className="" placeholder="Your Email here..."/>
                </div>
 
-                <div className="">
-                    <button className="">Subscribe</button>
+                <div className=" bg-black text-white  p-3 rounded-2xl text-sm flex justify-end relative left-[30%]">
+                    <button className="text-center flex justify-center items-center">Subscribe</button>
                 </div>
 
              </div>

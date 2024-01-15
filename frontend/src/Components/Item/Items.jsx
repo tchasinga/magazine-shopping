@@ -13,7 +13,7 @@ export default function Items(props) {
 
                         <div className="p-3">
 
-                        <div>
+                        <div className='text-slate-950 text-sm'>
                             <p>{props.name}</p>
                         </div>
 

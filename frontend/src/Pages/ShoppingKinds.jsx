@@ -15,9 +15,15 @@ const ShoppingKinds = (props) =>{
 
        <div className="">
         {
-           all_product.map((item, i ) =>{
-              if(props.category === item.category){
-                return <Items key={i} item={item} />
+           all_product.map((items , i ) =>{
+              if(props.category === items.category){
+                return   <Items
+                key={i}
+                image={items.image}
+                name={items.name}
+                new_price={items.new_price}
+                old_price={items.old_price}
+              />
               }
            })
         }

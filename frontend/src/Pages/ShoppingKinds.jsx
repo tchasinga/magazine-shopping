@@ -2,6 +2,7 @@ import { useContext } from "react"
 import PropTypes from "prop-types";
 import { ShopContext } from "../Contexts/ShopContext.jsx";
 
+
 const ShoppingKinds = (props) =>{
   const {all_product} = useContext(ShopContext)
 

@@ -22,9 +22,10 @@ function App() {
         <Route path="/womens" element={<ShoppingKinds banner={women_banner} category="women"/>} />
         <Route path="/child" element={<ShoppingKinds banner={child_banner} category="kid"/>} />
 
-        <Route path="/product" element={<Products/>}>
-        <Route path="/product/:productId" exact component={<Products/>} />
-        </Route>
+        <Route path="/product" element={<Products />}>
+  <Route path="/product/:productId" element={<Products />} />
+</Route>
+
 
         <Route path="/cart" element={<Cart/>} />
         <Route path="/login" element={<LoginSignup/>} />

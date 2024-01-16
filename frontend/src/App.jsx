@@ -23,7 +23,7 @@ function App() {
         <Route path="/child" element={<ShoppingKinds banner={child_banner} category="kid"/>} />
 
         <Route path="/product" element={<Products/>}>
-          <Route path=":productID" element={<h1>Product ID</h1>} />
+        <Route path="/product/:productId" exact component={<Products/>} />
         </Route>
 
         <Route path="/cart" element={<Cart/>} />

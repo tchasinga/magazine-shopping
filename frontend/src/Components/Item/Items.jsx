@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import '../../index.css';
+import { Link } from 'react-router-dom';
 
 export default function Items(props) {
   return (
@@ -7,9 +8,12 @@ export default function Items(props) {
      
                 <div className="flex flex-col bg-slate-200 justify-center items-center">
                     <div className="flex justify-center items-center flex-col">
-                        <div>
+                       
+                    <Link to={`/product/${props.id}`}>
+                       <div>
                             <img src={props.image} alt="" className='object-fill'/>
                         </div>
+                        </Link>
 
                         <div className="p-3">
 
@@ -40,4 +44,5 @@ Items.propTypes = {
     name: PropTypes.string.isRequired,
     new_price: PropTypes.string.isRequired,
     old_price: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired
 };

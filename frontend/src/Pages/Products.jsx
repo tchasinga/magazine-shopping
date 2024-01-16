@@ -1,6 +1,7 @@
 import { useContext } from "react"
-import { ShopContext } from "../Contexts/ShopContext"
+import  ShopContext  from "../Contexts/ShopContext"
 import { useParams } from "react-router-dom"
+import Breadcrum from "../Components/Breadcrum/Breadcrum";
 
 export default function Products() {
 
@@ -11,7 +12,7 @@ export default function Products() {
 
   return (
     <div>
-      
+      <Breadcrum product={product} />
     </div>
   )
 }

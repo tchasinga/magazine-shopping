@@ -19,6 +19,7 @@ export default function Items(props) {
 
                         <div className='text-slate-950 text-sm font-medium'>
                             <p>{props.name}</p>
+                        
                         </div>
 
                        <div className="flex gap-2 ">
@@ -44,5 +45,5 @@ Items.propTypes = {
     name: PropTypes.string.isRequired,
     new_price: PropTypes.string.isRequired,
     old_price: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired
+    id: PropTypes.number.isRequired,
 };

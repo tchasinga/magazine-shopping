@@ -5,27 +5,27 @@ import Items from "../Components/Item/Items.jsx";
 
 const ShoppingKinds = (props) => {
   const { all_product }  = useContext(ShopContext);
-  console.log('props.category:', props.category);
-  console.log('all_product:', all_product);
-  
+ 
   return (
     <div className="">
       <div className="pt-3">
         <img src={props.banner} alt="banner" className="w-full object-fill" />
       </div>
 
-      <div className="mygridreponsive">
+      <div className="mygridreponsive pt-5 pb-16">
         {all_product.map((items ,i) => {
-          if (props.category === items.category || items.category === props.category || items.category && props.category) {
+          if ( items.category === props.category) {
             return (
               <Items
-                key={i}
-                id={items.id}
-                name={items.name}
-                price={items.price}
-                image={items.image}
-              />
+              key={i}
+              image={items.image}
+              name={items.name}
+              new_price={items.new_price}
+              old_price={items.old_price}
+            />
             );
+          } else{
+            return null;
           }
         })}
         

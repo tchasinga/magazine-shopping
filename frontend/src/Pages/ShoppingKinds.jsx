@@ -18,6 +18,7 @@ const ShoppingKinds = (props) => {
             return (
               <Items
               key={i}
+              id={items.id}
               image={items.image}
               name={items.name}
               new_price={items.new_price}

@@ -10,9 +10,10 @@ export default function Popular() {
       </div>
 
       <div className="mygridreponsive ">
-        {data_product.map((items) => (
+        {data_product.map((items , i) => (
           <Items
-            key={items.id}
+            key={i}
+            id={items.id}
             image={items.image}
             name={items.name}
             new_price={items.new_price}

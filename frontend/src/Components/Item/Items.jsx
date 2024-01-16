@@ -11,7 +11,7 @@ export default function Items(props) {
                        
                     
                        <div>
-                          <Link to={`/product/${props.id}`}>
+                          <Link to={`/product/${props.id}`} onClick={window.scrollTo(0,0)}>
                             <img src={props.image} alt="" className='object-fill'/>
                             </Link>
                         </div>

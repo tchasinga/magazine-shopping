@@ -79,3 +79,22 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+/* Designing form  */
+
+.loginSingup{
+  width: 60%;
+  margin: auto;
+  height: 80dvh;
+  background: #0a080a5b;
+  padding-top: 70px;
+  
+}
+
+.loginsignup-container{
+  width: 580px;
+  height: 500px;
+  background: #fff;
+  margin: auto;
+  padding: 40px 60px;
+}

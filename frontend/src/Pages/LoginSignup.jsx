@@ -1,6 +1,7 @@
 
 export default function LoginSignup() {
   return (
+     <div className="mt-5">
     <div className="loginSingup">
       <div className="loginsignup-container">
          <h1>Sign Up</h1>
@@ -10,8 +11,13 @@ export default function LoginSignup() {
             <input type="password" placeholder="Password" />
          </div>
           <button>Sign Up</button>
-          <p className="loginSignup-login">Already have an account</p>
+          <p className="loginSignup-login">Already have an account <span>login here</span></p>
+          <div className="loginsingup-agree">
+            <input type="checkbox"  name="" id=""/>
+            <p>I agree to the Terms of Service and Privacy Policy</p>
+          </div>
       </div>
+    </div>
     </div>
   )
 }

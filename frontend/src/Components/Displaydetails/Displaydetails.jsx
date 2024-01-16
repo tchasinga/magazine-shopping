@@ -1,8 +1,14 @@
 import PropTypes from "prop-types";
+import { useContext } from "react";
 import { IoMdStar } from "react-icons/io";
+import { ShopContext } from "../../Contexts/ShopContext";
+
 
 export default function Displaydetails(props) {
   const { product } = props;
+  const {addToCart} = useContext(ShopContext)
+
+
   return (
     <div className="productdisplay">
       <div className="productdisplay-left">
@@ -52,7 +58,7 @@ export default function Displaydetails(props) {
                 <div className="productdisplay-right-size-list-item">XXL</div>
             </div>
         </div>
-        <button className="Getbtn"> Add to cart</button>
+        <button onClick={()=>{addToCart(product.id)}} className="Getbtn"> Add to cart</button>
         <p className="productdisplay-right-category"><span>Category : </span>Wonen , Crop Top</p>
         <p className="productdisplay-right-category"><span>Tags : </span>Models , Latest Top</p>
       </div>
@@ -68,6 +74,7 @@ Displaydetails.propTypes = {
     description: PropTypes.string.isRequired,
     old_price: PropTypes.number.isRequired,
     new_price: PropTypes.number.isRequired,
+    id: PropTypes.number.isRequired,
     // Add other properties if there are more in the actual structure
   }).isRequired,
 };

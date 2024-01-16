@@ -16,7 +16,7 @@ export default function Breadcrum(props) {
                         </svg>
                     </div>
                     <div>
-                        <a href='/product' className='hover:underline'>Product</a>
+                        <a href='/' className='hover:underline'>Product</a>
                     </div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 text-slate-950" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -24,7 +24,7 @@ export default function Breadcrum(props) {
                         </svg>
                     </div>
                     <div>
-                        <a href='/product' className='hover:underline'>{product.name}</a>
+                        <a href='/' className='hover:underline'>{product.name}</a>
                     </div>
                 </div>
             ) : null}

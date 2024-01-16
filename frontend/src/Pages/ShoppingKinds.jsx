@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import PropTypes from "prop-types";
 import { ShopContext } from "../Contexts/ShopContext.jsx";
+import Items from "../Components/Item/Items";
 
 
 const ShoppingKinds = (props) =>{
@@ -8,13 +9,26 @@ const ShoppingKinds = (props) =>{
 
   return(
     <div className="flex flex-col justify-center items-center">
-      <img src={props.banner} alt="banner" className="w-full" />
+       <div className="pt-3">
+       <img src={props.banner} alt="banner" className="w-full object-fill" />
+       </div>
+
+       <div className="">
+        {
+           all_product.map((item, i ) =>{
+              if(props.category === item.category){
+                return <Items key={i} item={item} />
+              }
+           })
+        }
+       </div>
     </div>
   )
 }
 
 ShoppingKinds.propTypes = {
   banner: PropTypes.node.isRequired,
+  category: PropTypes.node.isRequired,
 };
 
 

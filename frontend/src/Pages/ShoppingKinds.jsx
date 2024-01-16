@@ -14,7 +14,8 @@ const ShoppingKinds = (props) =>{
 
 ShoppingKinds.propTypes = {
   banner: PropTypes.node.isRequired,
-}
+};
+
 
 
 export default ShoppingKinds

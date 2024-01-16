@@ -30,7 +30,7 @@ function App() {
             element={<ShoppingKinds banner={child_banner} category="kid" />}
           />
 
-          <Route path="/product" element={<Products />}>
+          <Route path="/product/" element={<Products />}>
             <Route path=":productId" element={<Products />} />
           </Route>
 

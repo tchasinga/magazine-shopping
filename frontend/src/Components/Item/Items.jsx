@@ -9,11 +9,13 @@ export default function Items(props) {
                 <div className="flex flex-col bg-slate-200 justify-center items-center">
                     <div className="flex justify-center items-center flex-col">
                        
-                    <Link to={`/product/${props.id}`}>
+                    
                        <div>
+                       <Link to={`/product/${props.id}`}>
                             <img src={props.image} alt="" className='object-fill'/>
+                            </Link>
                         </div>
-                        </Link>
+                        
 
                         <div className="p-3">
 

@@ -10,7 +10,7 @@ export default function LoginSignup() {
             <input type="email" placeholder="Email adress" />
             <input type="password" placeholder="Password" />
          </div>
-          <button >Sign Up</button>
+          <button className="mybtn">Sign Up</button>
           <p className="loginSignup-login">Already have an account <span>login here</span></p>
           <div className="loginsingup-agree">
             <input type="checkbox"  name="" id=""/>

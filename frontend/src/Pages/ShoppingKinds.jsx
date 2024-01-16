@@ -1,42 +1,42 @@
-import { useContext } from "react"
+import { useContext } from "react";
 import PropTypes from "prop-types";
 import { ShopContext } from "../Contexts/ShopContext.jsx";
 import Items from "../Components/Item/Items";
 
+const ShoppingKinds = (props) => {
+  const { all_product } = useContext(ShopContext);
 
-const ShoppingKinds = (props) =>{
-  const {all_product} = useContext(ShopContext)
-
-  return(
+  return (
     <div className="flex flex-col justify-center items-center">
-       <div className="pt-3">
-       <img src={props.banner} alt="banner" className="w-full object-fill" />
-       </div>
+      <div className="pt-3">
+        <img src={props.banner} alt="banner" className="w-full object-fill" />
+      </div>
 
-       <div className="">
-        {
-           all_product.map((items , i ) =>{
-              if(props.category === items.category){
-                return   <Items
-                key={i}
+      <div className="">
+        {all_product.map((items) => {
+          if (props.category === items.category) {
+            return (
+              <Items
+                key={items.id}
                 image={items.image}
                 name={items.name}
                 new_price={items.new_price}
                 old_price={items.old_price}
               />
-              }
-           })
-        }
-       </div>
+            );
+          } else {
+            return null;
+          }
+        })}
+        category
+      </div>
     </div>
-  )
-}
+  );
+};
 
 ShoppingKinds.propTypes = {
   banner: PropTypes.node.isRequired,
-  category: PropTypes.node.isRequired,
+  category: PropTypes.string.isRequired, // Add this line for 'category' prop validation
 };
 
-
-
-export default ShoppingKinds
+export default ShoppingKinds;

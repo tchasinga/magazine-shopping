@@ -81,6 +81,7 @@ export default function CartItem() {
            </div>
            <div className="cartitems-promocode">
                 <p>If you have a promo code, enter it here...</p>
+                <div className=""></div>
            </div>
       </div>
     </div>

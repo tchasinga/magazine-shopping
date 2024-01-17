@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { ShopContext } from "../../Contexts/ShopContext"
 import { MdDelete } from "react-icons/md";
+import {Tooltip} from '@mate'
 
 
 export default function CartItem() {

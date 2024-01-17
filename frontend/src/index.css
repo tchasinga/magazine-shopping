@@ -354,3 +354,12 @@
   height: 58px;
   background: #eaeaea;
 }
+
+.cartitems-promobox input{
+ border: none;
+ outline: none;
+ background: transparent;
+ font-size: 16px;
+ width: 330px;
+ height: 50px;
+}

@@ -18,21 +18,7 @@ export default function CartItem() {
       </div>
       <hr />
 
-      <div className="">
-        <div className="cartitems-format">
-          <img src="" alt="" className="carticon-product-icon" />
-          <p></p>
-          <p></p>
-          <button className="cartitems-quantity"></button>
-          <p></p>
-
-          <Tooltip title="click here to edit your profile" arrow placement="left">
-            <div>
-              <MdDelete className="cartitems-delete-icon"  onClick={()=>{removeFromCart}}/>
-            </div>
-          </Tooltip>
-        </div>
-      </div>
+     
     </div>
   );
 }

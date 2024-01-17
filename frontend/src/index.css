@@ -364,8 +364,15 @@
  height: 50px;
 }
 
-.cartitems-promobox .cartitems-btning{
-  width: 170px;
+.cartitems-promobox button{
+  width: 154px;
   height: 58px;
+  background: #150606;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
   font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }

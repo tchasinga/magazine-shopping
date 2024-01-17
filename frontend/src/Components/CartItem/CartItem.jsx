@@ -16,6 +16,13 @@ export default function CartItem() {
             <p>Total</p>
             <p>Remove</p>
         </div>
+        <hr />
+
+        <div className="">
+            <div className="cartitems-format">
+            <img src="" alt="" className="carticon-product-icon"/>
+            </div>
+        </div>
     </div>
   )
 }

@@ -77,8 +77,9 @@ export default function CartItem() {
                         <h3>${0}</h3>
                     </div>
               </div>
-              <button></button>
+              <button className="uppercase"> proceed with payement</button>
            </div>
+           <div className=""></div>
       </div>
     </div>
   );

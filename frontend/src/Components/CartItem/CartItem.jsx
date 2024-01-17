@@ -63,7 +63,13 @@ export default function CartItem() {
               <h1>Cart Toltal price</h1>
               <div className="">
                     <div className="cartitems-totals-items">
-                        
+                        <p>Subtatal</p>
+                        <p>${0}</p>
+                    </div>
+                    <hr />
+                    <div className="cartitems-totals-items">
+                        <p></p>
+                        <p></p>
                     </div>
               </div>
            </div>

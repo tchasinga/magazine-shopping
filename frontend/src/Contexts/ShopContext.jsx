@@ -14,25 +14,32 @@ const getDefaultCart = () => {
 
 
 const ShopContextProvider = (props) => {
-  const [cartItems, setCartItems] = useState(getDefaultCart());
-
-  const addToCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
-    console.log(cartItems);
+    const [cartItems, setCartItems] = useState(getDefaultCart());
+  
+    const addToCart = (itemId) => {
+      setCartItems((prev) => {
+        const updatedCart = { ...prev, [itemId]: prev[itemId] + 1 };
+        console.log(updatedCart);
+        return updatedCart;
+      });
+    };
+  
+    const removeFromCart = (itemId) => {
+      setCartItems((prev) => {
+        const updatedCart = { ...prev, [itemId]: prev[itemId] - 1 };
+        console.log(updatedCart);
+        return updatedCart;
+      });
+    };
+  
+    const contextValue = { all_product, cartItems, removeFromCart, addToCart };
+    return (
+      <ShopContext.Provider value={contextValue}>
+        {props.children}
+      </ShopContext.Provider>
+    );
   };
-
-  const removeFromCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
-  };
-
-  const contextValue = { all_product, cartItems, removeFromCart, addToCart };
-  return (
-    <ShopContext.Provider value={contextValue}>
-      {props.children}
-    </ShopContext.Provider>
-  );
-};
-
+  
 ShopContextProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };

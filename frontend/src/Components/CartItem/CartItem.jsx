@@ -83,7 +83,7 @@ export default function CartItem() {
                 <p>If you have a promo code, enter it here...</p>
                 <div className="cartitems-promobox">
                     <input type="text" placeholder="Enter promo code" />
-                    <button>Apply</button>
+                    <button className="cartitems-btning">Apply</button>
                 </div>
            </div>
       </div>

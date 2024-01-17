@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { ShopContext } from "../../Contexts/ShopContext.jsx";
 import { MdOutlineTextDecrease } from "react-icons/md";
 import { Tooltip } from "@mui/material";
+import { Link } from "react-router-dom";
+
 
 export default function CartItem() {
   const { all_product, cartItems, removeFromCart } = useContext(ShopContext);
@@ -24,7 +26,9 @@ export default function CartItem() {
           return (
             <div className="" key={e.id}>
               <div className="cartitems-format cartitems-format-main">
-                <img src={e.image} alt="" className="carticon-product-icon" />
+              <Link to={`/product/${e.id}`} onClick={window.scrollTo(0,0)}>
+                     <img src={e.image} alt="" className='object-fill '/>
+                </Link>
                 <p>{e.name}</p>
                 <p>${e.new_price}</p>
                 <button className="cartitems-quantity">
@@ -33,7 +37,7 @@ export default function CartItem() {
                 <p>{e.new_price * cartItems[e.id]}</p>
 
                 <Tooltip
-                  title="click here to edit your price"
+                  title="click here to reduce your price"
                   arrow
                   placement="left"
                 >
@@ -46,12 +50,17 @@ export default function CartItem() {
                     />
                   </div>
                 </Tooltip>
-                <hr />
+                
               </div>
+              <hr />
             </div>
           );
         }
       })}
+
+      <div className="cartitems-downs">
+
+      </div>
     </div>
   );
 }

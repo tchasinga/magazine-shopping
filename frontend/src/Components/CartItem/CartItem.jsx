@@ -59,7 +59,7 @@ export default function CartItem() {
       })}
 
       <div className="cartitems-downs">
-
+           
       </div>
     </div>
   );

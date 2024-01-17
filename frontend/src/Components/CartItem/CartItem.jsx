@@ -60,7 +60,7 @@ export default function CartItem() {
 
       <div className="cartitems-downs">
            <div className="cartitems-total">
-            <h1>Cart Toltal</h1>
+              <h1>Cart Toltal</h1>
            </div>
       </div>
     </div>

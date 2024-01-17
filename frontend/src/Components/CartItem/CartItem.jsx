@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import { ShopContext } from "../../Contexts/ShopContext"
+import { MdDelete } from "react-icons/md";
 
 
 export default function CartItem() {
@@ -21,6 +22,11 @@ export default function CartItem() {
         <div className="">
             <div className="cartitems-format">
               <img src="" alt="" className="carticon-product-icon"/>
+              <p></p>
+              <p></p>
+              <button className="cartitems-quantity"></button>
+              <p></p>
+              <MdDelete />
             </div>
         </div>
     </div>

@@ -20,7 +20,7 @@ export default function CartItem() {
 
         <div className="">
             <div className="cartitems-format">
-            <img src="" alt="" className="carticon-product-icon"/>
+              <img src="" alt="" className="carticon-product-icon"/>
             </div>
         </div>
     </div>

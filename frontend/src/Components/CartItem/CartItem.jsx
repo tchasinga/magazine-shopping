@@ -79,7 +79,9 @@ export default function CartItem() {
               </div>
               <button className="uppercase"> proceed with payement</button>
            </div>
-           <div className=""></div>
+           <div className="cartitems-promocode">
+                <p>If you have a promo code, enter it here...</p>
+           </div>
       </div>
     </div>
   );

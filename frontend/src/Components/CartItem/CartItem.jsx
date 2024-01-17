@@ -26,10 +26,11 @@ export default function CartItem() {
           <button className="cartitems-quantity"></button>
           <p></p>
 
-          <Tooltip title="click here to delete.." arrow placement="left" className="cursor-pointer">
-            <MdDelete className="cartitems-delete-icon" />
+          <Tooltip title="click here to edit your profile" arrow placement="left">
+            <div>
+              <MdDelete className="cartitems-delete-icon"  onClick={()=>{removeFromCart}}/>
+            </div>
           </Tooltip>
-
         </div>
       </div>
     </div>

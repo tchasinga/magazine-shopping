@@ -283,3 +283,22 @@
   font-weight: 600;
   color: rgb(0, 40, 0);
 }
+
+.cartitems{
+  margin: 100px 0px;
+}
+
+
+
+.cartitems-format-main{
+ display: grid;
+ grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+ align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+  color: #3d3d3d;
+}
+
+.cartitems-format{
+ 
+}

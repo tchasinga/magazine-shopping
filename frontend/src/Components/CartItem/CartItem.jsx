@@ -23,7 +23,7 @@ export default function CartItem() {
         if (cartItems[e.id] > 0) {
           return (
             <div className="" key={e.id}>
-              <div className="cartitems-format">
+              <div className="cartitems-format cartitems-format-main">
                 <img src={e.image} alt="" className="carticon-product-icon" />
                 <p>{e.name}</p>
                 <p>${e.new_price}</p>

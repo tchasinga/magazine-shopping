@@ -365,5 +365,7 @@
 }
 
 .cartitems-promobox .cartitems-btning{
-  
+  width: 170px;
+  height: 58px;
+  font-size: 16px;
 }

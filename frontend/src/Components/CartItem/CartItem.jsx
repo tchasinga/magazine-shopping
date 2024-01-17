@@ -62,7 +62,7 @@ export default function CartItem() {
            <div className="cartitems-total">
               <h1>Cart Toltal price</h1>
               <div className="">
-                    <div className="">
+                    <div className="cartitems-totals-items">
                         
                     </div>
               </div>

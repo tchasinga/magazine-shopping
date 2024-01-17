@@ -347,3 +347,10 @@
   color: #555;
 }
 
+.cartitems-promobox{
+  width: 504px;
+  margin-top: 15px;
+  padding-left: 20px;
+  height: 58px;
+  background: #eaeaea;
+}

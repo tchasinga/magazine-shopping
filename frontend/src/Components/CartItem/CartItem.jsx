@@ -69,9 +69,15 @@ export default function CartItem() {
                     <hr />
                     <div className="cartitems-totals-items">
                         <p>Shipping Fee</p>
-                        <p></p>
+                        <p>Free</p>
+                    </div>
+                    <hr />
+                    <div className="cartitems-totals-items">
+                        <h3>Total</h3>
+                        <h3>${0}</h3>
                     </div>
               </div>
+              <button></button>
            </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 export default function CartItem() {
-  const { all_product, cartItems, removeFromCart } = useContext(ShopContext);
+  const { all_product, cartItems, removeFromCart, getTotalCartAmount } = useContext(ShopContext);
   console.log(all_product);
     console.log(cartItems);
 
@@ -64,7 +64,7 @@ export default function CartItem() {
               <div className="">
                     <div className="cartitems-totals-items">
                         <p>Subtatal</p>
-                        <p>${0}</p>
+                        <p>${getTotalCartAmount()}</p>
                     </div>
                     <hr />
                     <div className="cartitems-totals-items">
@@ -74,7 +74,7 @@ export default function CartItem() {
                     <hr />
                     <div className="cartitems-totals-items">
                         <h3>Total</h3>
-                        <h3>${0}</h3>
+                        <h3>${getTotalCartAmount()}</h3>
                     </div>
               </div>
               <button className="uppercase btn-case-style"> proceed with payement</button>

@@ -37,6 +37,16 @@ app.use(
     });
   });
 
+//   Image storage by using multer
+const storage = multer.diskStorage({
+    destination: './upload/images',
+    filename:(req,file, cd)=>{
+        return cd(null, `${file.fieldname}_${Date.now()}${path.extname(file.originalname)}`)
+    }
+}) 
+
+const upload = multer({storage:storage})
+
 
 
   // Connecting to MongoDB
@@ -60,3 +70,6 @@ mongoose
 
 
 //   Applying APIs routes
+app.post('/upload', upload.single('product'), (req,res)=>{
+    res.send(`/${req.file.path}`)
+})

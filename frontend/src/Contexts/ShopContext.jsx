@@ -43,7 +43,7 @@ const ShopContextProvider = (props) => {
         return totalAmount;
     }
     
-    // implementing the the displaying quatinty of element booked 
+    // implementing the the displaying quatinty of element  
     const getTotalCartItem =() =>{
         let totalItem = 0;
         for (const item in cartItems) {

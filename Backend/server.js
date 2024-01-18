@@ -70,6 +70,10 @@ mongoose
 
 
 //   Applying APIs routes
+app.use('/images', express.static('upload/images'));
 app.post('/upload', upload.single('product'), (req,res)=>{
-    res.send(`/${req.file.path}`)
+    res.json({
+        success:1,
+        profile_url:`http://localhost:5000/upload/images/${req.file.filename}`
+    })
 })

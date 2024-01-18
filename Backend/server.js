@@ -25,7 +25,7 @@ app.use(
 
 
   // Error handling middleware
-app.use((err, req, res, next) => {
+  app.use((err, req, res, next) => {
     const statusCode = err.statusCode || 500;
     const message = err.message || 'Internal Server Error!';
     return res.status(statusCode).json({
@@ -34,6 +34,8 @@ app.use((err, req, res, next) => {
       message,
     });
   });
+
+
 
   // Connecting to MongoDB
 const urlmongoDB = process.env.MONGODB_URL;
@@ -52,3 +54,7 @@ mongoose
     console.error("MongoDB connection error:", err);
     process.exit(1);
   });
+
+
+
+//   Applying APIs routes

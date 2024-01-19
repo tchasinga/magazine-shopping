@@ -70,6 +70,15 @@
   filter: drop-shadow(-10px 91px 39px #00000095);
 }
 
+.mgenBg {
+  background-color: #f5f5f5;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

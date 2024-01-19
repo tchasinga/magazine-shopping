@@ -54,6 +54,12 @@
   border-bottom-left-radius: 20px !important;
 }
 
+.bordering input:focus {
+  outline: none;
+}
+
+
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

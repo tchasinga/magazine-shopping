@@ -241,6 +241,18 @@
 }
 
 
+.productdisplay-right-size-list-item {
+  height: 40px;
+  width: 40px;
+  border-radius: 22%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
 
 .cartitems-promobox button {
   width: 154px;

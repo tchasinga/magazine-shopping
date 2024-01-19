@@ -183,6 +183,10 @@
   cursor: pointer;
 }
 
+.productdisplay-main-img {
+  height: 700px;
+  width: 1700px;
+}
 
 .cartitems-promobox button {
   width: 154px;

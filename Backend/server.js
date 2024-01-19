@@ -110,7 +110,24 @@ const Product = mongoose.model('Product', {
   },
 }, {timestamps: true})
 
-
+// Adding post request 
+app.post('/addproduct', async (req, res)=>{
+  const product = new Product({
+    id: req.body.id,
+    name: req.body.name,
+    image: req.body.image,
+    category: req.body.category,
+    new_price: req.body.new_price,
+    old_price: req.body.old_price,
+    available: req.body.available,
+  })
+  try{
+    const savedProduct = await product.save();
+    res.send(savedProduct);
+  }catch(err){
+    res.status(400).send(err);
+  }
+})
 
 //   Applying APIs routes
 app.use('/images', express.static('upload/images'));

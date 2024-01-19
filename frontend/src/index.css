@@ -188,6 +188,13 @@
   width: 1700px;
 }
 
+.productdisplay-right {
+  width: 100%;
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

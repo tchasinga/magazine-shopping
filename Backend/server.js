@@ -68,7 +68,8 @@ mongoose
   });
 
 
-  // Adding Schema to store data Img for admin
+  // Adding Schema to store data Img for admin...
+  
 
 
 

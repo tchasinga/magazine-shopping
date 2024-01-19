@@ -102,6 +102,13 @@
   margin: 20px 0px;
 }
 
+.loginSignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

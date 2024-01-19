@@ -170,6 +170,12 @@
   gap: 17px;
 }
 
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

@@ -254,6 +254,13 @@
 }
 
 
+.productdisplay-right-size-list-item:hover {
+  background-color: #971919;
+  color: #fff;
+  transform: rotate(360deg) scale(1.9);
+}
+
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

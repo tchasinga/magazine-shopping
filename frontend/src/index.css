@@ -79,6 +79,17 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+/* Designing form  */
+
+.loginSingup {
+  width: minmax(100%, 900px);
+  margin: auto;
+  height: 100dvh;
+  background: #0a080a5b;
+
+  padding-top: 70px;
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

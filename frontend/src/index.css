@@ -39,6 +39,12 @@
   filter: drop-shadow(-10px 91px 39px #00000095);
 }
 
+.mygridreponsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+}
+
 
 .cartitems-promobox button {
   width: 154px;

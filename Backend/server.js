@@ -68,6 +68,9 @@ mongoose
   });
 
 
+  // Adding Schema to store data Img for admin
+
+
 
 //   Applying APIs routes
 app.use('/images', express.static('upload/images'));

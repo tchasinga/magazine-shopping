@@ -68,8 +68,12 @@ mongoose
   });
 
 
-  // Adding Schema to store data Img for admin...
-  
+// Adding Schema to store data Img for admin .....
+const Schema = mongoose.Schema;
+const ImgSchema = new Schema({
+    product: String
+})
+
 
 
 

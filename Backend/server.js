@@ -143,6 +143,10 @@ app.post('/addproduct', async (req, res)=>{
 })
 
 // Adding get method to get all products
+app.get('/Allproducts', async (req, res) =>{
+  let products = await Product.find({});
+  console.log(products, 'All products found')
+})
 
 //   Applying APIs routes
 app.use('/images', express.static('upload/images'));

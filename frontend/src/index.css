@@ -58,7 +58,11 @@
   outline: none;
 }
 
-
+/* New code is now added  */
+.airpod {
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
 
 .cartitems-promobox button {
   width: 154px;

@@ -255,8 +255,6 @@
   transform: rotate(360deg) scale(1.9);
 }
 
-
-
 .productdisplay-right .Getbtn {
   width: 100%;
   height: 60px;
@@ -272,12 +270,20 @@
   transition: all 0.5s ease;
 }
 
-
-
 .productdisplay-right .Getbtn:hover {
   background: #000000;
 }
 
+
+
+
+
+
+.productdisplay-right-category span {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(0, 40, 0);
+}
 
 .cartitems-promobox button {
   width: 154px;

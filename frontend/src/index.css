@@ -224,6 +224,16 @@
 }
 
 
+.productdisplay-rigth-price-new {
+  color: green;
+}
+
+.productdisplay-right-size h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

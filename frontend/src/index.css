@@ -10,6 +10,18 @@
   padding: 0;
 }
 
+.nav-cart-count {
+  position: absolute;
+  top: -18%;
+  left: 9%;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 
 .cartitems-promobox button {
   width: 154px;

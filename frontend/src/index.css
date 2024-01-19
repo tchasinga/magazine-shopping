@@ -90,6 +90,14 @@
   padding-top: 70px;
 }
 
+.loginsignup-container {
+  width: 580px;
+  height: 500px;
+  background: #ffffff;
+  margin: auto;
+  padding: 40px 60px;
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

@@ -109,6 +109,14 @@
   margin-top: 30px;
 }
 
+.loginSignup-fields input {
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  border-radius: none;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

@@ -22,6 +22,14 @@
   font-weight: 600;
 }
 
+.nav-menu hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
 
 .cartitems-promobox button {
   width: 154px;

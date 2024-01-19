@@ -149,6 +149,15 @@
   text-decoration: none;
 }
 
+.loginsingup-agree {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

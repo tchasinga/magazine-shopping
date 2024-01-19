@@ -272,6 +272,13 @@
   transition: all 0.5s ease;
 }
 
+
+
+.productdisplay-right .Getbtn:hover {
+  background: #000000;
+}
+
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

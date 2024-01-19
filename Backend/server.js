@@ -103,7 +103,12 @@ const Product = mongoose.model('Product', {
     type: Date,
     default: Date.now
   },
-} timeStamp())
+
+  available:{
+    type: Boolean,
+    default: true
+  },
+}, {timestamps: true})
 
 
 

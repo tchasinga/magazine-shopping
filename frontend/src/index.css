@@ -59,7 +59,6 @@
 }
 
 /* New code is now added  */
-
 .airpod {
   transition: all 0.5s ease;
   cursor: pointer;
@@ -285,15 +284,6 @@
   margin: 100px 0px;
 }
 
-.cartitems-format-main {
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
-  align-items: center;
-  gap: 75px;
-  padding: 20px 0px;
-  color: #3d3d3d;
-}
-
 .cartitems-downs {
   display: flex;
   margin: 100px 0px;
@@ -313,24 +303,7 @@
   padding: 15px 0px;
 }
 
-.btn-case-style {
-  width: 100%;
-  height: 60px;
-  color: white;
-  background: #3d0101c6;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 15px;
-  border: none;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
 
-.btn-case-style:hover {
-  background: #000000;
-}
 
 .cartitems-promocode {
   flex: 1;
@@ -357,6 +330,34 @@
   font-size: 16px;
   width: 330px;
   height: 50px;
+}
+
+.btn-case-style {
+  width: 100%;
+  height: 60px;
+  color: white;
+  background: #3d0101c6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn-case-style:hover {
+  background: #000000;
+}
+
+.cartitems-format-main {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+  color: #3d3d3d;
 }
 
 .cartitems-promobox button {
@@ -418,6 +419,4 @@
     height: 30px;
     top: 50px;
   }
-
-
 }

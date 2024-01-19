@@ -142,6 +142,8 @@ app.post('/addproduct', async (req, res)=>{
   }
 })
 
+// Adding get method to get all products
+
 //   Applying APIs routes
 app.use('/images', express.static('upload/images'));
 app.post('/upload', upload.single('product'), (req,res)=>{

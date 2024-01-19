@@ -217,12 +217,10 @@
   font-weight: 700;
 }
 
-
 .productdisplay-rigth-price-old {
   text-decoration: line-through;
   color: red;
 }
-
 
 .productdisplay-rigth-price-new {
   color: green;
@@ -233,13 +231,11 @@
   font-weight: 600;
 }
 
-
 .productdisplay-right-size-list {
   display: flex;
   gap: 10px;
   margin-top: 10px;
 }
-
 
 .productdisplay-right-size-list-item {
   height: 40px;
@@ -253,13 +249,11 @@
   transition: all 0.5s ease;
 }
 
-
 .productdisplay-right-size-list-item:hover {
   background-color: #971919;
   color: #fff;
   transform: rotate(360deg) scale(1.9);
 }
-
 
 .cartitems-promobox button {
   width: 154px;
@@ -320,6 +314,4 @@
     height: 30px;
     top: 50px;
   }
-
-
 }

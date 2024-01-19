@@ -144,7 +144,10 @@
   font-size: 13px;
 }
 
-
+.loginSignup-login span {
+  color: #971919;
+  text-decoration: none;
+}
 
 .cartitems-promobox button {
   width: 154px;

@@ -136,6 +136,15 @@
   transition: all 0.5s ease;
 }
 
+.mybtn:hover {
+  background: #971919;
+}
+
+.loginSignup-login {
+  font-size: 13px;
+}
+
+
 
 .cartitems-promobox button {
   width: 154px;

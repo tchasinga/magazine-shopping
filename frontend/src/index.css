@@ -195,6 +195,12 @@
   flex-direction: column;
 }
 
+.productdisplay-right h1 {
+  color: #3d3d3d;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

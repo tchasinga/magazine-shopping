@@ -158,6 +158,14 @@
   font-size: 15px;
 }
 
+/* New one is added */
+
+.productdisplay {
+  display: flex;
+  margin-top: 20px;
+}
+
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

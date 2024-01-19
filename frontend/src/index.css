@@ -176,6 +176,14 @@
   gap: 10px;
 }
 
+.productdisplay-img-list img {
+  height: 100px;
+  width: 163px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

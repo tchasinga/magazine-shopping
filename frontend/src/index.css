@@ -217,6 +217,13 @@
   font-weight: 700;
 }
 
+
+.productdisplay-rigth-price-old {
+  text-decoration: line-through;
+  color: red;
+}
+
+
 .cartitems-promobox button {
   width: 154px;
   height: 58px;

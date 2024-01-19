@@ -146,6 +146,7 @@ app.post('/addproduct', async (req, res)=>{
 app.get('/Allproducts', async (req, res) =>{
   let products = await Product.find({});
   console.log(products, 'All products found')
+  res.send(products);
 })
 
 //   Applying APIs routes
